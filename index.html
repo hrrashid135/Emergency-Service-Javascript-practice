@@ -40,7 +40,7 @@
     </section>
 
 
-    <section class="main grid grid-cols-4 grid-rows-3 gap-4 p-4">
+    <section class="main grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 gap-4 p-4">
         <div class="emergency-cards col-span-3 row-span-3 bg-white rounded-lg shadow-md p-4">
             <div class="cards-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-4">
                 <!-- Card 1 -->
@@ -56,7 +56,7 @@
                     <h1 class="font-bold text-2xl">999</h1>
                     <p class="text-gray-500">All</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2" data-service="National Emergency Number" data-phone="999"> 📋 Copy</button>
                         <button id="emergency-call-btn-1" class="w-1/2 call-common bg-green-500 text-white rounded p-2">📞 Call</button>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <h1 class="font-bold text-2xl">999</h1>
                     <p class="text-gray-500">Police</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="police-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                     <h1 class="font-bold text-2xl">999</h1>
                     <p class="text-gray-500">Fire</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="fire-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <h1 class="font-bold text-2xl">1994-999999</h1>
                     <p class="text-gray-500">Ambulance</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="ambulance-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                  </div>
@@ -136,7 +136,7 @@
                     <h1 class="font-bold text-2xl">109</h1>
                     <p class="text-gray-500">Help</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="women-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                  </div>
@@ -155,7 +155,7 @@
                     <h1 class="font-bold text-2xl">106</h1>
                     <p class="text-gray-500">Govt</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="corroption-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                   </div>
@@ -173,7 +173,7 @@
                     <h1 class="font-bold text-2xl">16216</h1>
                     <p class="text-gray-500">Electricity</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="electricity-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                  </div>
@@ -191,7 +191,7 @@
                     <h1 class="font-bold text-2xl">16445</h1>
                     <p class="text-gray-500">NGO</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="brac-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                  </div>
@@ -209,7 +209,7 @@
                     <h1 class="font-bold text-2xl">163</h1>
                     <p class="text-gray-500">Travel</p>
                     <div class="flex justify-between items-center gap-2 ">
-                        <button class="w-1/2 border border-gray-300 rounded p-2"> 📋 Copy</button>
+                        <button class="w-1/2 copy-btn border border-gray-300 rounded p-2"> 📋 Copy</button>
                         <button id="railway-call-btn" class="w-1/2 bg-green-500 call-common text-white rounded p-2">📞 Call</button>
                     </div>
                  </div>
@@ -222,11 +222,18 @@
             </div>
         </div>
         <div class="call-history col-span-1 row-span-3 bg-white rounded-lg shadow-md p-4">
-            <h2 class="text-xl font-bold mb-4">Call History</h2>
-            <div class="history-container overflow-y-auto h-[400px]">
-
-        </div>
-    </section>
+            <div class="flex justify-between items-center mb-4">
+                <h2 id="clear-history-btn" class="text-xl font-bold">Call History</h2>
+                <button class="clear bg-green-500 rounded-full p-2 text-white">Clear</button>
+            </div>
+            <div class="card-container-id overflow-y-auto h-[400px]">
+                <p class="text-gray-500">No call history available.</p>
+                <ul id="call-history-list">
+                    
+                    <!-- Call history items will be appended here -->
+                </ul>
+            </div>
+        </section>
 
 
 
